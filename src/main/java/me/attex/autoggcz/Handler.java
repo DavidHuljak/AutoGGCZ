@@ -38,7 +38,7 @@ public class Handler
 	            //QPlay
 	            if (e.message.getUnformattedText().contains("Winner:") || 
 	            		e.message.getUnformattedText().contains("Winners:") || 
-	            		e.message.getUnformattedText().contains("won the game!") ||
+				e.message.getUnformattedText().contains("Server is restarting in 20 seconds") ||
 	            //Survival Games
 	            		e.message.getUnformattedText().contains("Game is still in progress...") ||
 	            		e.message.getUnformattedText().contains("Rank Bonus")) {
